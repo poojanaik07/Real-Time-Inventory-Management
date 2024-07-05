@@ -1,0 +1,126 @@
+.admin__header {
+    width: 100%;
+    padding: 20px 0px;
+    background: var(--primary-color);
+    position: fixed;
+    top: 0;
+    z-index: 1000; 
+}
+
+.dis_name{
+    color: var(--card-bg-02);
+    padding-bottom: 10px;
+    font-size: 30px !important;
+    font-weight: 600 !important;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pro_img img{
+    border-radius: 50%;
+    padding-top: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.admin__nav-top {
+    width: 100%;
+}
+
+.admin__nav-wrapper-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 3rem;
+}
+
+.admin__nav-top-right img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.admin__nav-top-right {
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.admin__nav-wrapper-top .search__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.admin__nav-top-right span i {
+    color: whitesmoke;
+    cursor: pointer;
+    height: 80px;
+}
+
+.admin__nav-wrapper-top .logo h1{
+    font-size: 1.8rem;
+    color: whitesmoke;
+    
+}
+
+.admin__menu {
+    width: 250px;
+    height: 100%;
+    line-height: 70px;
+    background: var(--primary-color);
+    position: fixed;
+    bottom: 0;
+    overflow-y: auto;
+    z-index: 999;
+}
+
+.admin__menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px; /* Add some padding to separate menu items from the container edge */
+}
+.admin__menu-list .admin__menu-item .admin__menu-link {
+    color: var(--card-bg-02);
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.admin__menu-list .admin__menu-item .admin__menu-link.active__admin-menu {
+    background: var(--card-bg-02);
+    color: var(--primary-color)!important;
+    border-radius: 0px 50px 50px 0px !important;
+}
+
+/* Optional: Add styling for hover effect */
+.admin__menu-list .admin__menu-item .admin__menu-link:hover {
+    background: #f0f0f0;
+    color: var(--primary-color);
+    transition: 0.3;
+    border-radius: 0px 50px 50px 0px;
+}
+.admin__menu-list .admin__menu-item a {
+    color: var(--card-bg-02);
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+
+.active__admin-menu {
+    background: var(--card-bg-02);
+    color: var(--primary-color)!important; /* Adjust text color for active item */
+    border-radius: 0px 50px 50px 0px !important;
+}
+
+/* Optional: Add styling for hover effect */
+.admin__menu-list .admin__menu-item a:hover {
+    background: #f0f0f0;
+    color: var(--primary-color);
+    transition: 0.3;
+    border-radius: 0px 50px 50px 0px;
+}
+

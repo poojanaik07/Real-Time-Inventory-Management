@@ -1,0 +1,98 @@
+
+
+.container {
+  margin-top: 20px;
+}
+
+.btn-green{
+  background: rgb(43, 151, 43);
+  margin-bottom: 4px;
+  color: white;
+}
+
+.order-details-table {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-details-table thead {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.order-details-table th, .order-details-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* User info list styling */
+.user-info-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-info-list li {
+  margin-bottom: 8px;
+}
+
+/* View order link styling */
+.view-order-link {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Delete button styling */
+.delete-button {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+}
+
+/* Order Products table styling */
+.order-products-table {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-products-table thead {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+.order-products-table th, .order-products-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Product image styling */
+.product-image {
+  max-width: 50px;
+  max-height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .order-details-table th, .order-details-table td {
+    font-size: 14px;
+  }
+
+  .order-products-table th, .order-products-table td {
+    font-size: 14px;
+  }
+}
